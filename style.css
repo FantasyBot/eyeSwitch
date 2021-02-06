@@ -7,7 +7,7 @@ body{
 }
 
 img{
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   transition: transform 200ms;
   object-fit: cover;
@@ -24,3 +24,8 @@ img.next{
 }
 
 
+@media (max-width: 450px) {
+  img{
+    width: 100vw;
+  }
+}
